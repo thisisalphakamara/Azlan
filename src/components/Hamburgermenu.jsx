@@ -14,7 +14,7 @@ const Hamburgermenu = () => {
       <div>
         <button
           onClick={toggleMenu}
-          className=" md:hidden lg:hidden  bg-gradient-to-r from-blue-900 to-yellow-600 px-6 py-4 rounded-lg
+          className=" md:hidden lg:hidden sm:flex  bg-gradient-to-r from-blue-900 to-yellow-600 px-6 py-4 rounded-lg
            text-white font-bold hover:bg-gradient-to-l hover:from-yellow-600
             hover:to-blue-900 transition duration-300 ease-in-out "
         >
