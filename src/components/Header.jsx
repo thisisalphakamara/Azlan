@@ -9,10 +9,12 @@ const Header = () => {
       id="home"
       className="flex justify-between items-center  p-5 bg-white"
     >
-      <div className="flex items-center gap-2">
-        <img src={logo} alt="" className="w-10 h-10 " />
-        <h1 className="font-bold text-2xl">Azlan</h1>
-      </div>
+      <a href="#home">
+        <div className="flex items-center gap-2">
+          <img src={logo} alt="" className="w-10 h-10 " />
+          <h1 className="font-bold text-2xl">Azlan</h1>
+        </div>
+      </a>
 
       <Navbar />
 

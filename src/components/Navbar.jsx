@@ -10,7 +10,7 @@ const Navbar = () => {
         About
       </a>
       <a href="#service" className="font-bold text-2xl hover:text-gray-600">
-        Service
+        Services
       </a>
       <a href="#news" className="font-bold text-2xl hover:text-gray-600">
         News
