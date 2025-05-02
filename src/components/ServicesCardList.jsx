@@ -57,7 +57,7 @@ const ServicesCardList = () => {
           {CardData.map((card) => (
             <div
               key={card.id}
-              className="flex flex-col  justify-center items-center gap-5 mb-4 border-1 border-gray-400 p-5 rounded-lg "
+              className="flex flex-col  justify-center items-center gap-5 mb-4 border-2 border-gray-400 p-5 rounded-lg hover:transition delay-100 duration-200 ease-in-out hover:scale-110 hover:border-4"
             >
               <div className="flex items-center gap-2">
                 <img src={card.logo} alt="" className="w-8 h-8" />

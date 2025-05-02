@@ -60,7 +60,7 @@ const NewsCardList = () => {
           {ListData.map((List) => (
             <div
               key={List.id}
-              className="border-1 border-gray-400 rounded-lg p-4 flex flex-col gap-3 items-center"
+              className="border-1 border-gray-400 rounded-lg p-4 flex flex-col gap-5 items-center hover:border-4 hover:transition delay-100 duration-200 ease-in-out hover:scale-110"
             >
               <img src={List.photo} alt="" className="w-full h-45 rounded-lg" />
               <h1 className="font-bold text-center">{List.title}</h1>

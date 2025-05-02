@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header
       id="home"
-      className="flex justify-between items-center  p-5 bg-white"
+      className="flex justify-between items-center  p-5 bg-white relative w-full shadow-lg "
     >
       <a href="#home">
         <div className="flex items-center gap-2">

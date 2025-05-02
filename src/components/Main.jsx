@@ -24,7 +24,7 @@ const Main = () => {
         <Button />
       </div>
       <div>
-        <img src={mainImage} alt="" className="w-70 h-60 rounded-lg " />
+        <img src={mainImage} alt="" className="w-70 h-60 rounded-lg  " />
       </div>
     </div>
   );
